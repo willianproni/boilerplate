@@ -1,4 +1,4 @@
-import {themes} from "@storybook/theming"
+import { themes } from "@storybook/theming"
 import GlobalStyle from '../src/styles/global'
 
 export const parameters = {
@@ -17,7 +17,7 @@ export const parameters = {
 export const decorators = [
   (Story) => (
     <>
-      <GlobalStyle/>
+      <GlobalStyle />
       <Story />
     </>
   ),
